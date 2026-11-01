@@ -116,7 +116,7 @@ body {
         font-weight: 700px;
         text-decoration: none;
         padding: 16px 28px;
-        border-none;            
+        border: none;            
         font-family: var(--fonte-texto);
         font-size: 17px;
         cursor: pointer;
