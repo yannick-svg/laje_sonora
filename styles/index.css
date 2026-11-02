@@ -5,15 +5,15 @@
 }
 
 :root {
-    --concreto:#E2DFD8;
-    --concreto-escuro:#CBC7BE;
-    --tinta:#0F1E3D;
-    --caixa-dagua:#1F5FBF;
-    --fita:#F3C623;
-    --branco:#FFFFFF;
+    --concreto: #E2DFD8;
+    --concreto-escuro: #CBC7BE;
+    --tinta: #0F1E3D;
+    --caixa-dagua: #1F5FBF;
+    --fita: #F3C623;
+    --branco: #FFFFFF;
 
-    --fonte-cartaz: Big Shoulders Arial Narrow sans-serif;
-    --fonte-texto: Archivo Arial sans-serif
+    --fonte-cartaz: 'Big Shoulders', 'Arial Narrow', sans-serif;
+    --fonte-texto: 'Archivo', Arial, sans-serif;
 }
 
 body {
@@ -71,7 +71,7 @@ body {
 
     .menu a.atual {
     border-bottom-color: var(--fita);
-} /*commit : Topo com flex*/
+}
 
     .cartazes{
         margin-top: 16px;
@@ -124,7 +124,7 @@ body {
 
      .botao:hover{
         background-color: var(--caixa-dagua);
-     }   /*Cartazes do topo*/
+     } 
 
      .secao{
         margin-top: 96px;
@@ -184,7 +184,7 @@ body {
     font-size: 15px;
     display: flex;
     justify-content: space-between;
-}/*Cards das oficinas*/
+}
 
     .passos{
         display: flex;
