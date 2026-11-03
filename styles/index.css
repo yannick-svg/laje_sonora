@@ -47,10 +47,11 @@ body {
     }
 
     .logo{
-        font-family: 'fontes-cartaz';
+        font-family: var(--fonte-cartaz);
         font-size: 34px;
         font-weight: 900;
         text-decoration: none;
+        color: var(--tinta);
     }
 
     .menu{
@@ -143,7 +144,7 @@ body {
 
      .card{
         background-color: var(--branco);
-        border-radius: 3px solid var(--tinta);
+        border: 3px solid var(--tinta);
         flex: 1 1 340px;
      }
 
