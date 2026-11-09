@@ -12,16 +12,17 @@
     --fita:#F3C623;
     --branco:#FFFFFF;
 
-    --fonte-cartaz: Big Shoulders Arial Narrow sans-serif;
-    --fonte-texto: Archivo Arial sans-serif
+    --fonte-cartaz: 'Big Shoulders', 'Arial Narrow', 'sans-serif';
+    --fonte-texto: 'Archivo', Arial, sans-serif;
 }
 
 body {
     background-color: var(--concreto);
-    text-decoration: var(--tinta);
+    color: var(--tinta);
     font-family: var(--fonte-texto);
     font-size: 17px;
     line-height: 1.55;
+}
 
     a {
         color: inherit;
@@ -52,7 +53,6 @@ body {
         font-size: 34px;
         font-weight: 900;
         text-decoration: none;
-        color: var(--tinta);
     }
 
     .menu{
@@ -96,18 +96,18 @@ body {
         max-width: 9ch;
     }
     
-    .cartaz-lateral{
-        background-color: var(--fita);
-        flex: 1;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        gap: 32px;
-    }
+   .cartaz-lateral {
+    background-color: var(--fita);
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 32px;
+}
     
      .cartaz-lateral p{
         font-size: 22px;
-        font-weight: 600px;
+        font-weight: 600;
         line-height: 1.3;
         align-items: flex-start;
      }
@@ -115,7 +115,7 @@ body {
      .botao{
         background-color: var(--tinta);
         color: white;
-        font-weight: 700px;
+        font-weight: 700;
         text-decoration: none;
         padding: 16px 28px;
         border: none;            
@@ -236,5 +236,5 @@ body {
         }      
     
 
- }
+ 
 
