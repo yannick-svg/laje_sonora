@@ -231,3 +231,15 @@ h1, h2, h3 {
     color: var(--fita);
     margin-bottom: 12px;
 }
+
+@media (max-width: 800px) {
+    .inscricao,
+    .linha,
+    .rodape-colunas {
+        flex-direction: column;
+    }
+
+    .titulo-pagina {
+        font-size: 96px;
+    }
+}
