@@ -34,92 +34,87 @@ h1, h2, h3 {
     line-height: 0.95;
 }
 
-.titulo-pagina {
-    font-size: 160px;
-    margin-top: 24px;
-}
-
-.subtitulo-pagina {
-    font-size: 22px;
-    max-width: 640px;
-    margin-top: 16px;
-}
-
-.filtros {
-    margin-top: 48px;
+.inscricao{
+    margin-top: 56px;
     display: flex;
-    flex-wrap: wrap;
-    gap: 12px;
+    gap: 72px;
 }
 
-.filtro {
-    border: 2px solid var(--tinta);
-    padding: 8px 18px;
-    font-weight: 600;
-    font-size: 15px;
-}
-
-.filtro.ativo {
-    background-color: var(--tinta);
-    color: var(--branco);
-}
-
-.lista {
-    margin-top: 40px;
-}
-
-.oficina {
-    padding-block: 32px;
-    border-top: 3px solid var(--tinta);
-    display: flex;
-    align-items: center;
-    gap: 40px;
-}
-
-.oficina .foto {
-    width: 240px;
-    height: 170px;
-    flex-shrink: 0;
-}
-
-.oficina-texto {
+.explicacao{
     flex: 1;
 }
 
-.oficina h2 {
-    font-size: 48px;
-    margin-bottom: 10px;
+.explicacao h2{
+    font-size: 44px;
+    margin-bottom: 16px;
 }
 
-.etiquetas {
-    margin-top: 16px;
-    display: flex;
-    gap: 8px;
+.explicacao p + p{
+    margin-top: 14px;
 }
 
-.etiqueta {
-    background-color: var(--branco);
-    padding: 4px 12px;
-    font-size: 14px;
+.explicacao .aviso{
+    margin-top: 32px;
+    padding: 24px;
+    background-color: var(--fita);
     font-weight: 600;
 }
 
-.oficina-detalhes {
-    width: 220px;
-    font-size: 15px;
+.formulario{
+    background-color: var(--branco);
+    border: 3px solid var(--tinta);
+    padding: 40px;
+    flex: 2;
     display: flex;
     flex-direction: column;
-    gap: 6px;
+    gap: 28px;
 }
 
-.oficina-detalhes strong {
-    font-size: 17px;
+.linha{
+    display: flex;
+    gap: 24px;
 }
 
-.oficina-detalhes a {
-    margin-top: 10px;
-    font-weight: 700;
+.campo {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
 }
+
+.grupo legend {
+    margin-bottom: 12px;
+}
+
+.opcoes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.opcao {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+
+.botao{
+        background-color: var(--tinta);
+        color: white;
+        font-weight: 700px;
+        text-decoration: none;
+        padding: 16px 28px;
+        border: none;            
+        font-family: var(--fonte-texto);
+        font-size: 17px;
+        cursor: pointer;
+     }
+
+     .botao:hover{
+        background-color: var(--caixa-dagua);
+     } 
+
 
 .conteudo {
     max-width: 1200px;
@@ -161,20 +156,9 @@ h1, h2, h3 {
     border-bottom-color: var(--fita);
 }
 
-.foto {
-    background-color: var(--concreto-escuro);
-}
-
-.foto-azul {
-    background-color: var(--caixa-dagua);
-}
-
-.foto-amarela {
-    background-color: var(--fita);
-}
-
-.foto-tinta {
-    background-color: var(--tinta);
+.titulo-pagina {
+    font-size: 160px;
+    margin-top: 24px;
 }
 
 .rodape {
